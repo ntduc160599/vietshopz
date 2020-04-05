@@ -1,0 +1,219 @@
+body{
+	font-size: 16px;
+	color: #000;
+	line-height: 26px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*style header*/
+
+a#logo{
+	margin-right: 57px;
+	padding: 28px 0px;
+}
+
+ul#main-menu li{
+	float: left;
+}
+
+ul#main-menu li i{
+	margin-left: 10px;
+}
+
+ul#main-menu li a{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 47px 21px;
+	color: #000;
+}
+
+ul#main-menu li:hover a{
+	background: #000;
+	color: white;
+	transition: all 0.5s;
+}
+
+p.search:before{
+	content: "\f002";
+	font-family: FontAwesome;
+	cursor: pointer;
+	padding: 47px 30px 47px 0px;
+	display: block;
+	font-size: 16px;
+}
+
+.cart{
+	position: relative;
+}
+
+.cart img{
+	padding: 39px 0px;
+}
+
+p.search{
+	padding-left: 24px;
+}
+
+.cart p.qty{
+	color: #fff;
+	position: absolute;
+	top: 49px;
+	left: 12px;
+	cursor: pointer;
+}
+
+/*style banner*/
+
+#banner .thumb img{
+	width: 100%;
+}
+
+/*style content*/
+
+/*style promotion*/
+
+.promotion{
+	margin-top: 52px;
+}
+
+.widget.deal .widget-content{
+    margin-right: 30px;
+}
+
+.widget.deal .widget-content a{
+	width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b32121;
+    padding: 22px 0px 22px 59px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #c97278;
+    color: #fff;
+}
+.widget.deal .widget-content:hover a{
+	color: #000;
+	transition: all 0.4s;
+}
+
+.widget.deal .widget-content i{
+	font-size: 28px;
+    background: #b4666c;
+    padding: 21px 22px;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.widget.deal.tag-member .widget-content a{
+	background: #c0ab90;
+}
+
+.widget.deal.tag-member .widget-content i{
+	background: #ac9981;
+}
+
+.widget.deal.sale .widget-content a{
+	
+	background: #7f8fa0;
+}
+
+.widget.deal.sale .widget-content i{
+	background: #728090;
+}
+
+.widget.deal.sale .widget-content:last-child{
+	margin-right: 0px;
+}
+
+/*style feature-product*/
+
+.widget.product-item .widget-head p{
+	width: 100%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    margin: 82px 0px;
+}
+
+.widget.product-item .widget-head p:after{
+	display: inline-block;
+	margin: 0 0 8px 20px;
+	height: 2px;
+	content: " ";
+	text-shadow: none;
+	background-color: #9d9d9d;
+	width: 30px;
+}
+
+.widget.product-item .widget-head p:before{
+	display: inline-block;
+	margin: 0 20px 8px 0;
+	height: 2px;
+	content: " ";
+	text-shadow: none;
+	background-color: #9d9d9d;
+	width: 30px;
+}
+
+.widget.product-item .item{
+	width: 286px;
+	padding-bottom: 21px;
+	border:1px solid #c9c9c9;
+	margin: 0px 4px;
+}
+
+.widget.product-item .item:first-child{
+	margin-left:  0px;
+}
+
+.widget.product-item .item:last-child{
+	margin-right: 0px;
+}
+
+.widget.product-item .item a.name-item{
+	font-size: 18px;
+	color: #212121;
+	padding: 19px 0px 9px 0px;
+}
+
+.widget.product-item .item p.price{
+	font-size: 18px;
+	color: #b74851;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.widget.product-item .item p.price:after{
+	content: "300.000đ";
+	text-decoration: line-through;
+	margin-left: 10px;
+	color: #8d8d8d; 
+}
+
+.widget.product-item .item button.add-to-cart{
+	 margin: 0 auto;
+    display: block;
+    background: #eeeeee;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    width: 202px;
+    padding: 14px 0px 16px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+    cursor: pointer;
+}
+
+.widget.product-item .item button.add-to-cart:hover
+{
+		background: #b5a2a2;
+}
+
+.widget.product-item .item a.thumb img{
+	width: 284px;
+	border-bottom: 1px solid #c9c9c9;
+}
