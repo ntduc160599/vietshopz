@@ -7,7 +7,7 @@ Vietshopz là một website bán hàng trực tuyến
 # Deployment
 ```
 # build html files
- # deploy to Firebase
+# deploy to Firebase
 ```
 
 
