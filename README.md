@@ -1,5 +1,6 @@
 # Vietshopz Website
-Vietshopz là một website bán hàng trực tuyến
+Vietshopz là một website bán hàng trực tuyến.
+https://vietshopz.web.app/
 # Requirements
 
 - Install Node (prefer using [nvm](https://github.com/creationix/nvm))
